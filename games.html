@@ -1,0 +1,117 @@
+<!-- Games Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Games - Clutch Coding</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #add8e6;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav {
+            background-color: #005bb5;
+            color: white;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            padding: 0.5rem;
+        }
+        header img {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            height: 80px;
+            width: 80px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #003f87;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #005bb5;
+            color: white;
+            margin-top: 2rem;
+        }
+        section {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .game {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .game img {
+            max-width: 200px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .game a {
+            text-decoration: none;
+            color: #005bb5;
+            font-weight: bold;
+        }
+        .game a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Clutch Coding</h1>
+        <img src="clutchcoding_logo-removebg-preview.png" alt="Clutch Coding Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="volunteer.html">Volunteer</a>
+            <a href="contact.html">Contact</a>
+            <a href="donate.html">Donate</a>
+            <a href="games.html">Our Games</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Our Games:</h2>
+        <div class="game">
+            <a href="game1.html">
+                <img src="jan25_obs.png" alt="Game 1">
+            </a>
+            <div>
+                <h3><a href="game1.html">Game 1: Obstacle Course</a></h3>
+                <p>Control your character using the arrow keys to navigate through a fun and 
+                    straightforward obstacle course. Avoid the obstacles and make your way to the 
+                    "End Block" to win the game. It's easy to play but challenging enough to keep 
+                    you engaged—perfect for quick, casual fun!</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Clutch Coding. All rights reserved.</p>
+    </footer>
+</body>
+</html>
